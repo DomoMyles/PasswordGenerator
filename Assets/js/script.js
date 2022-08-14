@@ -2,7 +2,7 @@ var numm = false;
 var symb = false;
 
 function start(begin, play) {
-	var play = prompt("How Many Digits")
+	var play = prompt("How Many Digits (8-128)")
 	if (play >= 8) {
 		/* Ask if you want numbers*/
 		if (play <= 128) {
