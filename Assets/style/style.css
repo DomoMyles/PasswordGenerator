@@ -136,3 +136,15 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+
+/*Display the password paramaters on the same line.*/
+.sideways{
+  display: inline;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.sideways li{
+  display: inline;
+}

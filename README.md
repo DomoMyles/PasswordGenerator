@@ -12,6 +12,12 @@ This solves the problem of looking up one's own password generator that might be
  
 What I learned:
 I learned that it is very difficult to create a randomly generated password but I hope to learn how to simplify it in the near future.
+
+Troubles:
+I ran into a lot of problems. For instance combining multipule strings and randomizing them was a large hurdle and on top of that selecting certain strings to be used. In the end i was able to figure it out and im really happy with the result.
  
+Deployed Link: 
+https://domomyles.github.io/PasswordGenerator/
+
 Webpage:
-![Alt text](./Assets/Images/PasswordPic.JPG)
+![Alt text](./assets/images/PasswordPic.JPG)

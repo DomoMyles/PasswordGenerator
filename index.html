@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
-    <link rel="stylesheet" href="./Assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -17,6 +16,13 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+        <ul class = sideways>
+          <li id="#">-Length-</li>
+          <li id="A">-Uppercase-</li>
+          <li id="a">-lowercase-</li>
+          <li id="1">-Numbers-</li>
+          <li id="!">-Symbols-</li>
+        </ul>
         <div class="card-body">
           <textarea
             readonly
@@ -26,11 +32,11 @@
           ></textarea>
         </div>
         <div class="card-footer">
-          <button class="btn" onclick = "start()">Generate Password</button>
-          <br>
+          <button class="btn" onclick = "start()">Generate Password</button> <!--Added the generate button-->
+          <button class="btn" onclick = "refresh()">Refresh</button>
         </div>
       </div>
     </div>
-    <script src="./Assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
