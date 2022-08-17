@@ -20,4 +20,4 @@ Deployed Link:
 https://domomyles.github.io/PasswordGenerator/
 
 Webpage:
-![Alt text](./Assets/Images/PasswordPic.JPG)
+![Alt text](./assets/images/PasswordPic.JPG)
